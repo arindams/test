@@ -1,0 +1,22 @@
+{
+  "homeLoan": {
+    "tier1": {
+      "amount": 2500000,
+      "interestRate": 10,
+      "tenureYears": 10
+    },
+    "tier2": {
+      "amount": 5000000,
+      "interestRate": 7.5,
+      "tenureYears": 15
+    }
+  },
+  "personalLoan": {
+    "standard": {
+      "amount": 1000000,
+      "interestRate": 12,
+      "tenureYears": 5,
+      "startDate": "Jan"
+    }
+  }
+}

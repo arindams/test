@@ -1,0 +1,32 @@
+{
+  "name": "playwright-cucumber-ts",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript BDD framework with Composition, JSON Environment Config, and AI Self-Healing",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:parallel": "cucumber-js --parallel 10",
+    "test:ui": "cucumber-js --tags '@ui'",
+    "test:ui:parallel": "cucumber-js --tags '@ui' --parallel 10",
+    "test:ui:headed": "cross-env HEADLESS=false cucumber-js --tags '@ui'",
+    "test:api": "cucumber-js --tags '@api'",
+    "test:api:parallel": "cucumber-js --tags '@api' --parallel 10",
+    "self-heal": "tsx scripts/ai-self-heal.ts"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^20.19.43",
+    "cross-env": "^7.0.3",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "uuid": "^11.1.0"
+  },
+  "overrides": {
+    "reflect-metadata": "^0.2.2",
+    "uuid": "^11.1.0",
+    "glob": "^11.0.0"
+  }
+}

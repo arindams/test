@@ -1,0 +1,554 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "api-boundary-and-invalid-payload-validation;send-boundary-post-requests-to-posts-endpoint",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Send boundary POST requests to posts endpoint",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1409544402
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The API service is reachable",
+            "match": {
+              "location": "features/step_definitions/api_steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31842302
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I send a POST request with payload type \"Special Characters Title\"",
+            "match": {
+              "location": "features/step_definitions/api_steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1126390935
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The response status code should be acceptable without internal server errors and response should have for request payload \"Special Characters Title\"",
+            "match": {
+              "location": "features/step_definitions/api_steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83542097
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 461792261
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-boundary-and-invalid-payload-validation;send-boundary-post-requests-to-posts-endpoint",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Send boundary POST requests to posts endpoint",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1393045188
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The API service is reachable",
+            "match": {
+              "location": "features/step_definitions/api_steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148043388
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I send a POST request with payload type \"Excessively Long Title\"",
+            "match": {
+              "location": "features/step_definitions/api_steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1304304648
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The response status code should be acceptable without internal server errors and response should have for request payload \"Excessively Long Title\"",
+            "match": {
+              "location": "features/step_definitions/api_steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97504828
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 281320948
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-boundary-and-invalid-payload-validation;send-boundary-post-requests-to-posts-endpoint",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Send boundary POST requests to posts endpoint",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1168554371
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The API service is reachable",
+            "match": {
+              "location": "features/step_definitions/api_steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144496051
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I send a POST request with payload type \"Missing Required Fields\"",
+            "match": {
+              "location": "features/step_definitions/api_steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1197919148
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The response status code should be acceptable without internal server errors and response should have for request payload \"Missing Required Fields\"",
+            "match": {
+              "location": "features/step_definitions/api_steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99180551
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 267775469
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "api-boundary-and-invalid-payload-validation",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "API Boundary and Invalid Payload Validation",
+    "tags": [
+      {
+        "name": "@api",
+        "line": 1
+      }
+    ],
+    "uri": "features/api_boundary.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "personal-loan-bar-chart-and-tooltip-validation;verify-personal-loan-schedule-bar-chart-using-standard-fixture-profile",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify Personal Loan schedule bar chart using standard fixture profile",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1040469989
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I launch the EMI calculator application",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2401075687
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I switch to the Personal Loan section",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 917033833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I fill in personal loan parameters via slider using standard fixture profile",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2169829476
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The bar chart payment schedule should be visible",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11549483
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Hovering over chart bars should display active tooltip text",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1010370186
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73543657
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "personal-loan-bar-chart-and-tooltip-validation",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Personal Loan Bar Chart and Tooltip Validation",
+    "tags": [
+      {
+        "name": "@ui",
+        "line": 1
+      }
+    ],
+    "uri": "features/ui_bar_chart.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "home-loan-emi-and-pie-chart-validation;validate-emi-calculation-using-fixture-profile-\"\"",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Validate EMI calculation using fixture profile \"\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1360927587
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I launch the EMI calculator application",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1933655475
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I navigate to the Home Loan section",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1436358288
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter loan details using fixture key \"tier1\"",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 954196583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The calculated EMI should match the displayed EMI value",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139138225
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "The pie chart should be visible and contain valid non-zero values",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132237213
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 188357895
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-loan-emi-and-pie-chart-validation;validate-emi-calculation-using-fixture-profile-\"\"",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Validate EMI calculation using fixture profile \"\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1247832819
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I launch the EMI calculator application",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2063840910
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I navigate to the Home Loan section",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1520905643
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter loan details using fixture key \"tier2\"",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 863344044
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The calculated EMI should match the displayed EMI value",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94313738
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "The pie chart should be visible and contain valid non-zero values",
+            "match": {
+              "location": "features/step_definitions/ui_steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88548447
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 154628061
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "home-loan-emi-and-pie-chart-validation",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Home Loan EMI and Pie Chart Validation",
+    "tags": [
+      {
+        "name": "@ui",
+        "line": 1
+      }
+    ],
+    "uri": "features/ui_pie_chart.feature"
+  }
+]
